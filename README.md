@@ -18,5 +18,5 @@ Pull the docker container
 9) ./demos/classifier.py infer ./generated-embeddings/classifier.pkl ./training-images/ayushman/ayush19.jpg
 
 References:
-Side-Profile-Detection: https://github.com/nawafalageel/Side-Profile-Detection
-Face-Matching: https://github.com/ageitgey/face_recognition
+1) Side-Profile-Detection: https://github.com/nawafalageel/Side-Profile-Detection
+2) Face-Matching: https://github.com/ageitgey/face_recognition
