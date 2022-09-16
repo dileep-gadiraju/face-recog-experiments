@@ -9,7 +9,7 @@ Steps to train face recognition on new people:
 Pull the docker container
 1) docker pull bamos/openface
 2) Make volume mount to keep training images
-3) docker run -v /home/shrutigupta/Documents/face-recog-experiments/data_images:/root/openface/training-images -p 9001:9000 -p 8000:8000 -t -i bamos/openface /bin/bash
+3) docker run -v <home_dir>/face-recog-experiments/data_images:/root/openface/training-images -p 9001:9000 -p 8000:8000 -t -i bamos/openface /bin/bash
 4) cd /root/openface/
 5) ls training-images/
 6) ./util/align-dlib.py ./training-images/ align outerEyesAndNose ./aligned-images/ --size 96
