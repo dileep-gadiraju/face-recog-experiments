@@ -20,3 +20,9 @@ Pull the docker container
 References:
 1) Side-Profile-Detection: https://github.com/nawafalageel/Side-Profile-Detection
 2) Face-Matching: https://github.com/ageitgey/face_recognition
+
+Virtual Environment:
+1) conda create -n face-recog-experiments
+2) conda activate face-recog-experiments
+3) pip3 install -r requirements.txt
+4) conda deactivate
